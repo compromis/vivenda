@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", sans-serif;
+  --font-headline: "Formula Condensed", sans-serif;
+  --font-serif: "Instrument Serif", serif;
+  --text-sm: clamp(0.8rem, 0.08vi + 0.78rem, 0.84rem);
+  --text-base: clamp(1rem, 0.23vi + 0.94rem, 1.13rem);
+  --text-md: clamp(1.1rem, 0.38vi + 1rem, 1.44rem);
+  --text-lg: clamp(1.56rem, 0.79vi + 1.36rem, 2rem);
+  --text-xl: clamp(2.25rem, 1.29vi + 1.63rem, 2.66rem);
+  --text-2xl: clamp(2.44rem, 2.02vi + 1.94rem, 3.55rem);
+  --text-3xl: clamp(3.05rem, 3.06vi + 2.29rem, 4.73rem);
+  --text-4xl: clamp(3.5rem, 4.54vi + 2.68rem, 6.31rem);
+  --text-5xl: clamp(7.75rem, 5vi + .25rem, 8.6rem);
+  --spacing-site: 1.5rem;
+  --spacing-navbar: 5.499375rem;
+  --spacing-viewport: calc(100svh - var(--spacing-navbar) - var(--spacing-site));
+  --color-black: #1b2022;
+  --color-white: #fff;
+  --color-orange: #DE5413;
+  --color-blue: #1F4C90;
+  --color-yellow: #f0b43c;
+  --shadow-red: .75rem .75rem 0 var(--color-red-shadow);
+  --shadow-blue: .75rem .75rem 0 var(--color-blue-shadow);
+  --shadow-yellow: .75rem .75rem 0 var(--color-yellow-shadow);
+  --shadow-green: .75rem .75rem 0 var(--color-green-shadow);
+  --shadow-color: .75rem .75rem 0 var(--color);
+  --color-lime-*: initial;
+  --color-amber-*: initial;
+  --color-emerald-*: initial;
+  --color-teal-*: initial;
+  --color-cyan-*: initial;
+  --color-sky-*: initial;
+  --color-indigo-*: initial;
+  --color-violet-*: initial;
+  --color-purple-*: initial;
+  --color-fuchsia-*: initial;
+  --color-pink-*: initial;
+  --color-rose-*: initial;
+  --color-gray-*: initial;
+  --color-stone-*: initial;
+}
+
+@font-face {
+  font-family: 'Formula Condensed';
+  src: url('../fonts/FormulaCondensed-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--spacing-navbar);
+}
+
+h1, h2, h3, h4, h5 {
+  letter-spacing: -.01em;
+}
