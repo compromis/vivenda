@@ -3,12 +3,12 @@
 const config = useRuntimeConfig()
 
 /* SEO Metatags */
-const title = 'La vivenda no és un negoci - Compromís'
+const title = 'La vivenda no és un negoci, és un dret - Compromís'
 const ogTitle = title
-const description = 'La vivenda no és un negoci, és un dret.'
-const ogImage = config.public.url + '/post/og-image.jpg'
-const keywords = ''
-const twitterSite = 'jovespv'
+const description = 'Signa el manifest per una vivenda digna'
+const ogImage = config.public.url + '/post/ogimage.png'
+const keywords = 'vivienda, alquiler, vivenda, hipoteca, fondos vuitres, fons voltor, dret, compromis'
+const twitterSite = 'compromis'
 useServerSeoMeta({
   title,
   ogTitle,
