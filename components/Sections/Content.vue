@@ -1,5 +1,5 @@
 <template>
-  <section class="card bg-white">
+  <section class="card p-6 md:p-8 bg-white">
   <h2>Propostes concretes per a zones tensionades</h2>
   <p class="opacity-50">(grans ciutats i zones turístiques)</p>
   <h3>A. Control de preus i regulació del lloguer</h3>
@@ -51,7 +51,7 @@
   </ul>
 </section>
 
-<section class="card bg-white">
+<section class="card p-6 md:p-8 bg-white">
   <h2>Propostes concretes per a zones rurals</h2>
   <h3>A. Rehabilitar i posar en ús habitatge existent</h3>
   <ul>
@@ -92,7 +92,6 @@
 .card {
   max-width: 72rem;
   margin: 2rem auto;
-  padding: 2rem;
   font-size: var(--text-base);
 
   h2 {
@@ -109,20 +108,20 @@
   }
 
   ul {
-    margin-left: 1.5rem;
+    margin-left: 0rem;
 
     li {
-      padding-left: 0.5rem;
-      margin-left: 0.5rem;
+      display: flex;
+      gap: .5rem;
       margin-block: 0.75rem;
       line-height: 1.5;
     }
 
-    li::marker {
+    li::before {
       content: "->";
       color: var(--color-orange);
       font-size: 2em;
-      line-height: 0;
+      line-height: 0.75;
     }
   }
 }
