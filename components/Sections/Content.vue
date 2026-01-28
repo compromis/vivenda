@@ -1,6 +1,6 @@
 <template>
   <section class="card bg-white">
-  <h2>PROPOSTES CONCRETES PER A ZONES TENSIONADES</h2>
+  <h2>Propostes concretes per a zones tensionades</h2>
   <p class="opacity-50">(grans ciutats i zones turístiques)</p>
   <h3>A. Control de preus i regulació del lloguer</h3>
   <ul>
@@ -52,7 +52,7 @@
 </section>
 
 <section class="card bg-white">
-  <h2>PROPOSTES CONCRETES PER A ZONES RURALS</h2>
+  <h2>Propostes concretes per a zones rurals</h2>
   <h3>A. Rehabilitar i posar en ús habitatge existent</h3>
   <ul>
     <li>Crear un Fons Rural d’Habitatge destinat a rehabilitar cases buides i convertir-les en lloguer assequible.</li>
@@ -97,8 +97,9 @@
 
   h2 {
     font-weight: 900;
-    font-size: 1.5rem;
     font-size: var(--text-lg);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
   }
 
   h3 {

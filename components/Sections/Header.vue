@@ -1,17 +1,17 @@
 <template>
   <header class="flex flex-col items-center p-8 max-w-[72rem] mx-auto gap-8 md:gap-10">
-    <h1 class="font-headline text-2xl md:text-5xl text-white">
+    <h1 class="font-headline text-4xl md:text-5xl text-white text-center leading-[1.1] text-balance">
       LA VIVENDA <strong class="text-black underline">NO</strong> ÉS UN NEGOCI
     </h1>
-    <div ref="illustrations" class="w-full h-[125vh] bg-red">
-      <div class="sticky top-[5vh]">
+    <div ref="illustrations" class="w-full h-[125svh] bg-red">
+      <div class="sticky top-[25svh] md:top-[5vh]">
         <div class="relative text-center">
-          <img ref="vulture" src="../../assets/images/vivenda-1.svg" alt="" aria-hidden="true" class="vulture h-[90vh] w-full object-fit" />
-          <img ref="house" src="../../assets/images/vivenda-2.svg" alt="" aria-hidden="true" class="house h-[90vh] w-full objet-fit absolute top-0 bg-yellow opacity-0" />
+          <img ref="vulture" src="../../assets/images/vivenda-1.svg" alt="" aria-hidden="true" class="vulture md:h-[90vh] w-full object-fit" />
+          <img ref="house" src="../../assets/images/vivenda-2.svg" alt="" aria-hidden="true" class="house md:h-[90vh] w-full objet-fit absolute top-0 bg-yellow opacity-0" />
         </div>
       </div>
     </div>
-    <h1 class="font-headline text-2xl md:text-5xl text-white">
+    <h1 class="font-headline text-4xl md:text-5xl text-white text-center leading-[1.1] text-balance">
       LA VIVENDA ÉS <strong class="text-black underline">UN DRET</strong>
     </h1>
     <a href="#form" class="bg-orange text-white font-extrabold text-lg py-2 px-5">
