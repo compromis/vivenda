@@ -60,3 +60,66 @@ html {
 h1, h2, h3, h4, h5 {
   letter-spacing: -.01em;
 }
+
+.router-link-active {
+  font-weight: bold;
+}
+
+.card {
+  max-width: 72rem;
+  margin: 2rem auto;
+  font-size: var(--text-base);
+
+  h2 {
+    font-weight: 900;
+    font-size: var(--text-lg);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-weight: 700;
+    margin-top: 1.5rem;
+    font-size: var(--text-md);
+  }
+
+  ul {
+    margin-left: 0rem;
+
+    li {
+      display: flex;
+      gap: .5rem;
+      margin-block: 0.75rem;
+      line-height: 1.5;
+    }
+
+    li::before {
+      content: "->";
+      color: var(--color-orange);
+      font-size: 2em;
+      line-height: 0.75;
+    }
+  }
+}
+
+#can_embed_form {
+  h4, h2 {
+    display: none;
+  }
+
+  input[type="submit"] {
+    background-color: var(--color-orange);
+    font-weight: 800;
+    font-size: 1.75rem;
+  }
+}
+
+.manifesto p {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .nav .router-link-active {
+    display: none;
+  }
+}

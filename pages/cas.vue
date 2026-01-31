@@ -3,9 +3,9 @@
 const config = useRuntimeConfig()
 
 /* SEO Metatags */
-const title = 'La vivenda no és un negoci, és un dret - Compromís'
+const title = 'La vivienda no es un negocio, es un drecho - Compromís'
 const ogTitle = title
-const description = 'Signa el manifest per una vivenda digna'
+const description = 'Firma el manifesto por una vivienda digna'
 const ogImage = config.public.url + '/post/ogimage.png'
 const keywords = 'vivienda, alquiler, vivenda, hipoteca, fondos vuitres, fons voltor, dret, compromis'
 const twitterSite = 'compromis'
@@ -27,9 +27,9 @@ useHead({ title })
 
 <template>
   <main class="p-4">
-    <SectionsHeader />
-    <SectionsContent />
-    <SectionsForm />
-    <SectionsShare />
+    <SectionsCasHeader />
+    <SectionsCasContent />
+    <SectionsCasForm />
+    <SectionsCasShare />
   </main>
 </template>
