@@ -20,7 +20,7 @@
   </ul>
   <h3>C. Lucha contra la especulación</h3>
   <ul>
-    <li>Prohibir la compra de vivienda para usos no residenciales a fondos buitre, empresas y sociedades especulativas.</li>
+    <li>Prohibir la compra de vivienda a fondos buitre, empresas y sociedades especulativas.</li>
     <li>Crear barreras de entrada para inversores que buscan rentabilidades altas y rápidas.</li>
     <li>Registro obligatorio de grandes tenedores e inspecciones fiscales periódicas.</li>
     <li>Penalización fiscal progresiva: a partir de la 3ª vivienda vacía, recargo multiplicador del IBI.</li>

@@ -20,7 +20,7 @@
   </ul>
   <h3>C. Lluita contra l’especulació</h3>
   <ul>
-    <li>Prohibir la compra d’habitatge per a usos no residencials a fons voltors, empreses i societats especulatives.</li>
+    <li>Prohibir la compra d’habitatge a fons voltors, empreses i societats especulatives.</li>
     <li>Crear barreres d'entrada per a inversors que busquen rendibilitats altes i ràpides.</li>
     <li>Registre obligatori de grans tenidors i inspeccions fiscals periòdiques.</li>
     <li>Penalització fiscal progressiva: a partir de la 3a vivenda buida, recàrrec d’IBI multiplicador</li>
